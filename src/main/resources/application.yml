@@ -1,0 +1,16 @@
+nama.kelas.binar=BEJ-1
+port=8089
+
+spring.datasource.url=jdbc:postgresql://localhost:8089/jwt_security
+spring.datasource.username=postgres
+spring.datasource.password=admin
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.show-sql=true
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+jwt.secret=km5bej1
+jwt.expiration.ms=18000000
+spring.security.oauth2.client.registration.github.clientId=c6d8bbd928ba4aebeb3f
+spring.security.oauth2.client.registration.github.clientSecret=706d0dc8fedac30420077702935a2e89c619350a
